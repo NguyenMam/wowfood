@@ -1,0 +1,139 @@
+.header{
+    height: 70px;
+}
+.logo{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 50%;
+    float:left;
+
+}
+.tab{
+    background-color: #ffffff;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.find{
+    background-image: url(images/nền.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7%;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+}
+.color{
+    color: #ff6b81;
+    margin-left: 8%;
+}
+input{
+    border:inherit;
+}
+input[type="Search" i] {
+    width: 30%;
+}
+input[type="submit" i] {
+    padding: 1px 2px;
+    width: fit-content;
+    background-color:  #ff6b81;
+    color: #ffffff;
+}
+.Categories{
+    background-color: white;
+    padding: 4%;
+}
+.menu{
+    background-color: #ececec;
+    padding: 5%;
+}
+.food{
+    background-color: #ffffff;
+    width: 41%;
+    margin: 2%;
+    padding: 2.5%;
+    float: left;
+    border-radius: 15px;
+}
+.food_img{
+    width: 18%;
+    float: left;
+}
+.food_text{
+    width: 70%;
+    float: left;
+    margin-left: 10% ;
+}
+.contact{
+    background-color: #ffffff;
+    padding: 2%;
+}
+.k{
+    color: #ff6b81;
+    text-align: center;
+    position: relative;
+}
+.order{
+    background: url(images/nền.jpg) top right;
+    padding: 4%;
+}
+.f{
+    width: 50%;
+    margin: 0 auto;
+}
+input{
+    border-radius: 3px;
+}
+
+.contact_logo{
+    width: 4%; height:4%;
+}
+@media only screen and (max-width:768px)
+{
+    input[type="Search" i] {
+        width: 40%;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    .tab{
+        width: 70%;
+    }
+
+    h1{
+        font-size: 1.5em;
+    }
+    .color{
+        margin-left: 1% ;
+    }
+    
+    .food{
+        width: 40%;
+    }
+    .food_img{
+        width: auto;
+    }
+
+    input[type="number" i] {
+        width: 70%;
+    }
+
+    input[type="text" i] {
+        width: 70%;
+    }
+    input[type="email" i] {
+        width: 70%;
+    }
+    textarea{
+        width: 70%;
+    }
+    .contact_logo{
+        width: 6%;
+        height: 6%;
+    }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Food</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+          <a href="">
+              <img  src="images/logo.png" alt="" style="margin: 1% 0 0 15%">
+          </a>
+        </div>
+        <div class="tab">
+          <a href="index.html" class="color">Home</a>
+          <a href="categories.html" class="color">Categories</a>
+          <a href="food.html" class="color">Foods</a>
+          <a href="#contact" class="color">Contact</a>
+          <a href="order.html" class="color">Order</a>
+        </div>
+    </div>
+    <section class="order">
+        <center>
+            <h2 style="color: white; font-weight: normal;">
+                Fill this form to confirm your order.
+            </h2>
+        </center>
+            <form class="f">
+                <fieldset>
+                    <legend>Select Food</legend>
+                    <img src="images/food title.png" alt="Pizza" class="food_img">
+
+                    <div class="food_text">
+                        <h3 style="margin:0;">Food Title</h3>
+                        <p style="margin: 2% 0;">$2.3</p>
+                        <h4 style="margin: 1%;">Quantity</h4>
+                        <input type="number" name="qty" value="1" required>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="v">
+                      <h4>Full Name</h4>
+                      <input type="text" placeholder="VD: Nguyễn Thu Phương">
+                       <h4>Phone number</h4>
+                      <input type="text" placeholder="VD: 0934xxxxxxxx">
+                       <h4>Email</h4>
+                      <input type="email" placeholder="VD: hi@gmail.com">
+                     <h4>Address</h4>
+                     <textarea rows="4" cols="30" placeholder ="VD: Street, City, Country" required></textarea>
+                     <br>
+                     <input type="submit" value="Confirm Order">
+                    </div>
+                </fieldset>
+            </form>
+    </section>
+    <div class="contact" id="contact">  
+        <center>
+            <a href="https://www.facebook.com/mam.leu.leu/" target="_blank" style="margin-left: 1%;"><img src="images/face.png"  class="contact_logo"></a>
+            <a href="https://www.instagram.com/mam_onee/" target="_blank" style="margin-left:1%;"><img src="images/ins.png" class="contact_logo"></a>
+            <a href="https://www.tiktok.com/@mynameismam?lang=vi-VN" target="_blank" style="margin-left: 1%;"><img src="images/tiktok.png" class="contact_logo"></a>
+            <p>All rights reserved. Designed By Nguyễn Mắm</p>
+        </center>
+      </div>
+</body>
+</html>
