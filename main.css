@@ -78,14 +78,19 @@ input[type="submit" i] {
 }
 .order{
     background: url(images/nền.jpg) top right;
+    background-repeat: no-repeat;
     padding: 4%;
 }
 .f{
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
 }
 input{
     border-radius: 3px;
+}
+
+fieldset{
+    border-color: #ffffff;
 }
 
 .contact_logo{
@@ -130,6 +135,9 @@ input{
         width: 70%;
     }
     textarea{
+        width: 70%;
+    }
+    .f{
         width: 70%;
     }
     .contact_logo{
